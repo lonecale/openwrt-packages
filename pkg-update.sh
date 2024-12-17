@@ -32,6 +32,10 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go || { 
 echo "Cloning luci-app-partexp..."
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp || { echo "Failed to clone luci-app-partexp"; exit 1; }
 
+# 下载 luci-app-netspeedtest
+echo "Cloning luci-app-netspeedtest..."
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest || { echo "Failed to clone luci-app-netspeedtest"; exit 1; }
+
 # 下载 luci-theme-kucat
 echo "Cloning luci-theme-kucat..."
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat || { echo "Failed to clone luci-theme-kucat"; exit 1; }
