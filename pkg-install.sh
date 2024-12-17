@@ -6,7 +6,7 @@
 #        https://github.com/pmkol/openwrt-packages
 #
 default_pkg_list=("sing-box" "xray-core")
-default_git_path="https://github.com/pmkol/openwrt-packages"
+default_git_path="https://github.com/lonecale/openwrt-packages"
 pkg_name=("${default_pkg_list[@]}")
 git_path="$default_git_path"
 
