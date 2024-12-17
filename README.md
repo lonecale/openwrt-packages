@@ -3,16 +3,16 @@
 
 【 注意：下方文件链接是本项目的地址，请自行更改成你的仓库地址 】
 
-- 在 [pkg-update.sh](https://github.com/pmkol/openwrt-packages/blob/main/pkg-update.sh) 添加要更新的插件
-- 在 [build-packages.yml](https://github.com/pmkol/openwrt-packages/blob/main/.github/workflows/build-packages.yml#L36) 添加要编译的插件
-- 在 [pkg-install.sh](https://github.com/pmkol/openwrt-packages/blob/main/pkg-install.sh#L8) 配置默认更新的插件
-- 在 [pkg-install.sh](https://github.com/pmkol/openwrt-packages/blob/main/pkg-install.sh#L9) 配置你的仓库地址
+- 在 [pkg-update.sh](https://github.com/lonecale/openwrt-packages/blob/main/pkg-update.sh) 添加要更新的插件
+- 在 [build-packages.yml](https://github.com/lonecale/openwrt-packages/blob/main/.github/workflows/build-packages.yml#L36) 添加要编译的插件
+- 在 [pkg-install.sh](https://github.com/lonecale/openwrt-packages/blob/main/pkg-install.sh#L8) 配置默认更新的插件
+- 在 [pkg-install.sh](https://github.com/lonecale/openwrt-packages/blob/main/pkg-install.sh#L9) 配置你的仓库地址
 - 双击右上角的 ★ 等待编译完成
 
 #### 快速使用 ####
 快速更新本项目示例的默认插件xray-core、sing-box
 ```
-curl https://raw.githubusercontent.com/pmkol/openwrt-packages/main/pkg-install.sh | bash
+curl https://raw.githubusercontent.com/lonecale/openwrt-packages/main/pkg-install.sh | bash
 ```
 
 #### 更多说明 ####
