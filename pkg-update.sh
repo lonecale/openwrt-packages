@@ -11,3 +11,6 @@ curl -Ls https://raw.githubusercontent.com/sbwml/openwrt_helloworld/v5/sing-box/
 
 # v2ray-data
 git clone https://github.com/pmkol/v2ray-geodata v2ray-geodata
+
+# lucky
+git clone https://github.com/gdy666/luci-app-lucky lucky
