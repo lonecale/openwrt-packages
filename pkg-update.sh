@@ -20,10 +20,6 @@ git clone https://github.com/gdy666/luci-app-lucky package/luci-app-lucky || { e
 echo "Cloning luci-app-autotimeset..."
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset || { echo "Failed to clone luci-app-autotimeset"; exit 1; }
 
-# 下载 luci-app-parentcontrol
-echo "Cloning luci-app-parentcontrol..."
-git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol || { echo "Failed to clone luci-app-parentcontrol"; exit 1; }
-
 # 下载 luci-app-advancedplus
 echo "Cloning luci-app-advancedplus..."
 git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus || { echo "Failed to clone luci-app-advancedplus"; exit 1; }
@@ -32,15 +28,23 @@ git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-adv
 echo "Cloning luci-app-ddns-go..."
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go || { echo "Failed to clone luci-app-ddns-go"; exit 1; }
 
-# 下载 luci-app-wizard
-echo "Cloning luci-app-wizard..."
-git clone https://github.com/sirpdboy/luci-app-wizard package/luci-app-wizard || { echo "Failed to clone luci-app-wizard"; exit 1; }
-
 # 下载 luci-app-partexp
 echo "Cloning luci-app-partexp..."
-git clone git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp || { echo "Failed to clone luci-app-partexp"; exit 1; }
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp || { echo "Failed to clone luci-app-partexp"; exit 1; }
 
 # 下载 luci-theme-kucat
 echo "Cloning luci-theme-kucat..."
 git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat || { echo "Failed to clone luci-theme-kucat"; exit 1; }
+
+# 下载 luci-app-eqosplu
+# echo "Cloning luci-app-eqosplus..."
+# git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus || { echo "Failed to clone luci-app-eqosplus"; exit 1; }
+
+# 下载 luci-app-wizard
+# echo "Cloning luci-app-wizard..."
+# git clone https://github.com/sirpdboy/luci-app-wizard package/luci-app-wizard || { echo "Failed to clone luci-app-wizard"; exit 1; }
+
+# 下载 luci-app-parentcontrol
+# echo "Cloning luci-app-parentcontrol..."
+# git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol || { echo "Failed to clone luci-app-parentcontrol"; exit 1; }
 
