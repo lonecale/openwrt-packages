@@ -18,7 +18,7 @@ jobs:
           - x86_64
         tag:
           - openwrt-23.05
-
+          
     steps:
       - uses: actions/checkout@v4
         with:
@@ -62,8 +62,8 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          release_name: OpenWrt-Packages-${{ matrix.arch }}
-          tag: ${{ matrix.arch }}
+          release_name: OpenWrt-Packages-${{ matrix.arch }}-${{ matrix.tag }}  # 添加版本tag
+          tag: ${{ matrix.arch }}-${{ matrix.tag }}  # 添加版本tag
           body: Latest build on ${{env.latest_release}}
           file_glob: true
           overwrite: true
