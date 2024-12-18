@@ -18,7 +18,7 @@ git clone https://github.com/lonecale/openwrt-custom-packages package/new/custom
 dirs=(smartdns luci-app-smartdns luci-app-chatgpt-web luci-app-lucky luci-app-autotimeset luci-app-advancedplus luci-app-ddns-go luci-app-partexp luci-app-netspeedtest luci-theme-kucat)
 
 for dir in "${dirs[@]}"; do
-  mv "package/new/custom-packages/$dir" "package/"
+  mv "package/new/custom-packages/$dir" "./"
 done
 
 rm -rf package/new/custom-packages
