@@ -33,8 +33,7 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.tag }}
           FEEDNAME: packages_ci
-          PACKAGES: xray-core sing-box v2ray-geodata smartdns luci-app-smartdns luci-app-chatgpt-web lucky luci-app-lucky luci-app-autotimeset luci-app-advancedplus ddns-go luci-app-ddns-go luci-app-partexp homebox luci-app-netspeedtest luci-theme-kucat
-          NO_REFRESH_CHECK: true
+          PACKAGES: xray-core sing-box v2ray-geodata smartdns luci-app-smartdns luci-app-wechatpush luci-app-chatgpt-web luci-app-fileassistant luci-app-autotimeset ddns-go luci-app-ddns-go luci-app-partexp homebox luci-app-netspeedtest luci-theme-kucat luci-app-advancedplus lucky luci-app-lucky          NO_REFRESH_CHECK: true
           IGNORE_ERRORS: true
 
       - name: Extract Packages SHA256
