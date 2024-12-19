@@ -15,7 +15,7 @@ git clone https://github.com/pmkol/v2ray-geodata v2ray-geodata
 git clone https://github.com/lonecale/openwrt-custom-packages package/new/custom-packages
 #mv package/new/custom-packages/smartdns package/new/custom-packages/luci-app-smartdns package/new/custom-packages/luci-app-chatgpt-web package/new/custom-packages/luci-theme-kucat package/new/custom-packages/luci-app-advancedplus package/new/custom-packages/luci-app-lucky package/new/
 
-dirs=(smartdns luci-app-smartdns luci-app-chatgpt-web luci-app-lucky luci-app-autotimeset luci-app-advancedplus luci-app-ddns-go luci-app-partexp luci-app-netspeedtest luci-theme-kucat)
+dirs=(smartdns luci-app-smartdns luci-app-chatgpt-web lucky luci-app-lucky luci-app-autotimeset luci-app-advancedplus luci-app-ddns-go luci-app-partexp luci-app-netspeedtest luci-theme-kucat)
 
 for dir in "${dirs[@]}"; do
   mv "package/new/custom-packages/$dir" "./"
