@@ -33,7 +33,7 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.tag }}
           FEEDNAME: packages_ci
-          PACKAGES: xray-core sing-box v2ray-geodata smartdns luci-app-smartdns luci-app-wechatpush luci-app-chatgpt-web luci-app-filemanager luci-app-autotimeset ddns-go luci-app-ddns-go luci-app-partexp homebox luci-app-netspeedtest luci-theme-kucat luci-app-advancedplus luci-app-netwizard lucky luci-app-lucky
+          PACKAGES: xray-core sing-box v2ray-geodata smartdns luci-app-smartdns adguardhome luci-app-adguardhome luci-app-wechatpush luci-app-chatgpt-web luci-app-filemanager luci-app-autotimeset ddns-go luci-app-ddns-go luci-app-partexp homebox luci-app-netspeedtest luci-theme-kucat luci-app-advancedplus luci-app-netwizard lucky luci-app-lucky luci-app-netdata
           NO_REFRESH_CHECK: true
           IGNORE_ERRORS: true
 
